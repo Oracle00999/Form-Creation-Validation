@@ -1,5 +1,5 @@
 // The DOMContentLoaded event fires when the HTML document has been completely parsed
-document.addEventListener("DOMContentLoaded", (event) => {
+document.addEventListener("DOMContentLoaded", function (event) {
   const form = document.getElementById("registration-form");
   const feedbackDiv = document.getElementById("form-feedback");
 
